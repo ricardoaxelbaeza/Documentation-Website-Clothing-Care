@@ -48,6 +48,8 @@ nav a{
 
 main{
   margin-left:250px;
+  /* position:fixed; */
+  
 }
 
 #check_for_care_instructions img{
@@ -62,5 +64,25 @@ main{
   margin-bottom:10px;
 }
 
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) { }
+
+@media(max-width:1000px){
+  nav {
+    width:150px;
+    text-align:center;
+  }
+  nav header{
+    width:150px;
+  }
+  nav a{
+    width:150px;
+  }
+
+  main{
+    margin-left:150px;
+  }
+  #wash-img{
+    width:30px;
+    height:40px;
+  }
+
+}
